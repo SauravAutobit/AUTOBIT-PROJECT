@@ -1,0 +1,13 @@
+.backBtn-global {
+  width: 181px;
+  height: 41px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  background-color: var(--secondary-btn-color);
+  color: var(--secondary-color);
+  /* padding: 10px 20px; */
+  font-weight: 500;
+  border: none;
+}

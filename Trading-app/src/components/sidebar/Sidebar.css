@@ -1,0 +1,105 @@
+.sidebar-container {
+  padding: 20px;
+  width: 70px;
+  border-right: 1px solid #2a2a30;
+}
+.sidebar-btn {
+  width: 24px;
+  height: 24px;
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2a2a30;
+  border: 0;
+}
+
+.sidebar-btn:hover {
+  background-color: #2a2a30 !important;
+}
+
+.sidebar-icons {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-icons-hide {
+  display: none;
+}
+
+.sidebar-side-icon {
+  margin: 9px 0;
+  cursor: pointer;
+}
+
+.sidebar-offcanvas {
+  position: absolute !important;
+  top: 80px !important;
+  width: 300px !important;
+  z-index: 1050 !important;
+}
+
+.sidebar-offcanvas-slider {
+  background-color: var(--primary-background-color);
+  border-right: 1px solid #2a2a30;
+  scrollbar-width: none;
+  pointer-events: auto;
+}
+
+.offcanvas-backdrop.show {
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
+.sidebar-options {
+  color: var(--primary-color);
+  font-weight: var(--primary-font-weight);
+  font-size: 12px;
+}
+
+.sidebar-options:hover {
+  font-weight: var(--secondary-font-weight);
+  font-size: var(--primary-font-size);
+}
+
+.sidebar-options-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sidebar-icon-name {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  width: 100%;
+  gap: 12px;
+  cursor: pointer;
+}
+
+.sidebar-subOptions {
+  height: 29px;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  color: white;
+  padding-left: 16px;
+  list-style: none;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.sidebar-subOptions:hover {
+  background: #2a2a30;
+  /* color: var(--primary-btn-color); */
+  font-weight: var(--secondary-font-weight);
+  font-size: var(--primary-font-size);
+}
+
+.sidebar-subOptions.after {
+  background: #2a2a30;
+  color: var(--primary-btn-color);
+  font-weight: var(--secondary-font-weight);
+  font-size: var(--primary-font-size);
+}
